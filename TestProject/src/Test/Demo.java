@@ -6,6 +6,8 @@ public class Demo {
 
 		System.out.println("First push");
 		System.out.println("second push");
+		System.out.println("pull code");
+		
 		
 	}
 
