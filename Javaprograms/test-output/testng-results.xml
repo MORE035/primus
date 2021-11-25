@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25884" started-at="2021-11-19T17:11:04 IST" finished-at="2021-11-19T17:11:30 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25884" started-at="2021-11-19T17:11:04 IST" finished-at="2021-11-19T17:11:30 IST">
+      <class name="pageObjectModel.FindByTestcases">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:pageObjectModel.FindByTestcases@3bd82cf5]" name="launchApp" is-config="true" duration-ms="14989" started-at="2021-11-19T17:11:04 IST" finished-at="2021-11-19T17:11:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="Admin_Login_TestCase(java.lang.String,java.lang.String)[pri:0, instance:pageObjectModel.FindByTestcases@3bd82cf5]" name="Admin_Login_TestCase" duration-ms="6138" started-at="2021-11-19T17:11:19 IST" data-provider="Data" finished-at="2021-11-19T17:11:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Login_TestCase -->
+        <test-method status="PASS" signature="Admin_Login_TestCase(java.lang.String,java.lang.String)[pri:0, instance:pageObjectModel.FindByTestcases@3bd82cf5]" name="Admin_Login_TestCase" duration-ms="963" started-at="2021-11-19T17:11:25 IST" data-provider="Data" finished-at="2021-11-19T17:11:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin_Login_TestCase -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:pageObjectModel.FindByTestcases@3bd82cf5]" name="closeApp" is-config="true" duration-ms="3303" started-at="2021-11-19T17:11:26 IST" finished-at="2021-11-19T17:11:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- pageObjectModel.FindByTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
