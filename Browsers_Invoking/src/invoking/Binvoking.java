@@ -14,6 +14,7 @@ public class Binvoking {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		 driver =new ChromeDriver();
 		 driver.get("http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login");
+		 driver.close();
 
 	}if(Browser=="firefox")	{
 		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
