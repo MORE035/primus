@@ -17,6 +17,7 @@ public class Login_Test_Case extends AppUtils {
 		Assert.assertTrue(lp.Valid_User());
 		
 		lp.Logout();
+		
 	}
 	@Test(dataProvider = "getData")
 	public void inValiduser(String Username,String Password) throws InterruptedException {
