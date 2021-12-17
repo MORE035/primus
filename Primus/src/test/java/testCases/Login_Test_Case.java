@@ -9,7 +9,7 @@ import utilities.AppUtils;
 
 public class Login_Test_Case extends AppUtils {
 
-	@Test
+	@Test()
 	public void admin_Login_Valid() {
 		
 		Login_Page lp=new Login_Page(driver);

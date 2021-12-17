@@ -10,7 +10,7 @@ import utilities.AppUtils;
 import utilities.Login_As_Admin;
 
 public class Add_Employee_Test_case extends Login_As_Admin {
-	@Test(enabled = true)
+	@Test
 	public void new_Emp() {
 		Admin_Page ap=new Admin_Page(driver);
 

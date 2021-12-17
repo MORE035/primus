@@ -7,14 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Admin_Page {
 
 	
-	private WebDriver driver;
-
-
-
-
-
-
-
+	public  WebDriver driver;
 
 
 	public Admin_Page(WebDriver driver) {
